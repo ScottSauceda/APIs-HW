@@ -44,7 +44,7 @@ function parseData(response){
     let gifImages = document.createElement("img");
     gifImages.setAttribute("src", url);
     imageDiv.appendChild(gifImages);
-    } 
+    }
 };
 
 function errorMessage(error){
